@@ -13,16 +13,14 @@ public class API {
 	static Color cc;
 	
 	/**
-	* This method is used for creating custom error messages by stimply implementing the java.awt.Color class. 
+	* This method is used for creating custom error messages. 
 	* @author Adversing
-	* @param color the message's color (java.awt.Color)
 	* @param error_message the String of the error you want to display (java.lang.String)
 	* 
-	* @return A formatted message, with a fancy color implementation!
+	* @return A formatted message!
 	*/
-	public static String createMessage(Color color, String error_message) {
-		color = cc;
-		return color + error_message;
+	public String createMessage(String error_message) {
+		return error_message;
 	}
 	
 	/**
